@@ -1,0 +1,45 @@
+body{
+    font-family: Helvetica;
+    margin: 5% 0;
+    padding: 0;
+    line-height: 1.5em;
+    
+}
+main{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 15px;
+
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+main:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px #c1c1c1;
+}
+h1, h2{
+    text-align: center;
+}
+h3{
+    position: relative;
+    left: 65%;
+    top: 6em;
+}
+p{
+    text-indent: 15px;
+    margin-top: 3em;
+}
+li{
+    display: inline-block;
+    margin-right: 15px;
+    letter-spacing: 5px;
+    position: relative;
+    left: 45%;
+    top: 8em;
+    
+}
+img{
+    width: 30%;
+}
