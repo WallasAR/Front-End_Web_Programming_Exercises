@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  }
+  h1, h2{
+    text-align: center;
+  }
+
+  /* ajustando sessoes - colocando uma ao lado da outra*/
+  main{
+    display: flex;
+  }
+  .register {
+    flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  }
+  .search{
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  }
+  .formR {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10em; /* Espaço entre os formulários */
+  }
+
+
+  form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0px 3px 5px #ccc;
+  border-radius: 1em;
+  }
+  label{
+    margin-top: 1em;
+  }
+
+  .form-group {
+  margin-bottom: 10px;
+  }
+  
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  select,
+  textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+  input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: .5em auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+  }
+  
+  input[type=submit]:hover {
+  background-color: #45a049;
+  }
+
+  input[type=date]{
+    margin-left: 20%;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6b6b6b;
+    
+    transition: background-color .2s ease-in-out;
+  }
+  input[type="date"]:hover{
+    background-color: #0080ff;
+  }
+  .mark{
+    background-color: #cccccc33;
+    border-radius: .5em;
+    padding: 20px;
+    margin: 1em auto;
+  }
+  .mark label{
+    display: inline-block;
+    margin: 1.5em, auto;
+    text-align: center;
+  }
+  .sectionTitle{
+    margin-top: 1em;
+    text-align: center;
+  }
+  img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+  select{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0px 3px 10px #dddddd8c;
+  }
+  textarea{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: inset 0px 0px 8px #bdbdbd7c;
+  }
+  

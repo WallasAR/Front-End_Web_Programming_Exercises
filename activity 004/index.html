@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main>
+        <section class="register">
+            <header>
+                <h1>Cadastro</h1>
+            </header>
+            <form action="/register" method="post">
+                <div class="form-group">
+                    <!-- Nome -->
+                    <label for="fullname">Nome completo</label>
+                    <input type="text" name="fullname" id="fullname" required>
+                </div>
+
+                <!-- E-mail -->
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <!-- Senha -->
+                <div class="form-group">
+                    <label for="pass">Senha</label>
+                    <input type="password" name="pass" id="pass" required>
+                </div>
+
+                <!-- Data de nascimento -->
+                <div class="form-group">
+                    <label for="birthDay">Data de nascimento</label>
+                    <input type="date" name="birthDay" id="birthDay" required>
+                </div>
+
+                <!-- Sexo -->
+                <div class="form-group, mark">
+                    <label class="sectionTitle">Sexo</label>
+                    <hr>
+                    <div class="checkb">
+                        <input type="radio" name="gender" id="gender"> 
+                        <label for="gender">Masculino</label>
+                    </div>
+                    <div class="checkb">
+                        <input type="radio" name="gender" id="gender2">
+                        <label for="gender2">Feminino</label>
+                    </div>
+                    <div class="checkb">
+                        <input type="radio" name="gender" id="gender3">
+                        <label for="gender3">Outro</label>
+                    </div>
+
+                    <!-- Interesses -->
+                    <div class="form-group">
+                        <label class="sectionTitle">Interesses</label>
+                        <hr>
+                        <div class="checkb">
+                            <input type="checkbox" name="interest" id="interest">
+                            <label for="interest">Música</label>
+                        </div>
+                        <div class="checkb">
+                            <input type="checkbox" name="interest" id="interest2">
+                            <label for="interest2">Esporte</label>
+                        </div>
+                        <div class="checkb">
+                            <input type="checkbox" name="interest" id="interest3">
+                            <label for="interest3">Educação</label>
+                        </div>
+                        <div class="checkb">
+                            <input type="checkbox" name="interest" id="interest4">
+                            <label for="interest4">Tecnologia</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- País -->
+                <div class="form-group">
+                    <label for="country">País</label>
+                    <select name="country" id="country">
+                        <option value="Brasil">Brasil</option>
+                        <option value="USA">Estados Unidos</option>
+                        <option value="Canada">Canadá</option>
+                        <option value="Japao">Japão</option>
+                    </select>
+                </div>
+
+                <!-- Biografia -->
+                <div class="form-group">
+                    <label for="bio">Biografia</label>
+                    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                </div>
+
+                <!-- input de submit -->
+                <div class="form-group">
+                    <input type="submit" value="Registrar">
+                </div>
+            </form>
+        </section>
+            
+        <section class="search">
+            <h2>Pesquisas</h2>
+            <form class="formR" action="https://www.youtube.com/results" method="get">
+                <label for="search_query"><img src="https://static.vecteezy.com/system/resources/thumbnails/022/721/714/small/youtube-logo-for-popular-online-media-content-creation-website-and-application-free-png.png" alt="youtube logo"></label>
+                <input type="text" name="search_query" id="search_query" placeholder="Search">
+                <input type="submit" value="Pesquisar">
+            </form>
+
+            <form class="formR" action="https://www.bing.com/search" method="get">
+                <label for="q"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d98af92-96cb-4e56-bd09-2c97cbb27535/dfskdsr-c07121d3-7622-4254-9bee-71610ffb8362.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkOThhZjkyLTk2Y2ItNGU1Ni1iZDA5LTJjOTdjYmIyNzUzNVwvZGZza2Rzci1jMDcxMjFkMy03NjIyLTQyNTQtOWJlZS03MTYxMGZmYjgzNjIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3LHH4b1ZzelmS2rlXnbcN7d4FRQtUaWS-Fh3jxx4als" alt="bing logo"></label>
+                <input type="text" name="q" id="q" placeholder="Search">
+                <input type="submit" value="Pesquisar">
+            </form>
+
+            <form class="formR" action="https://pt.wikipedia.org/w/index.php" method="get">
+                <label for="search"><img src="https://seeklogo.com/images/W/wikipedia-logo-D8F03B93A7-seeklogo.com.png?v=638245914600000000" alt="wikipedia logo"></label>
+                <input type="text" name="search" id="search" placeholder="Search">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
