@@ -9,3 +9,5 @@
 # Activity 005 <sup>[link](https://wallasar.github.io/Front-End_Web_Programming_Exercises/activity%20005/index.html)</sup>
 
 # Activity 006 <sup>[link](https://wallasar.github.io/Front-End_Web_Programming_Exercises/activity%20006/index.html)</sup>
+
+# Activity 007 <sup>[link](https://wallasar.github.io/Front-End_Web_Programming_Exercises/activity%20007/blog.html)</sup>
