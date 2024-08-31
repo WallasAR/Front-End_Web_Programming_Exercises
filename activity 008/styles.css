@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+/* Estilizando inputs de texto, senha, e-mail e textarea */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    padding: 5px;
+    width: 200px;
+    display: block;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Estilizando botões de rádio e checkboxes */
+    
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+button:hover {
+    background-color: #555;
+}   
+
+li {
+    list-style-type: none;
+}
+
+.socialIcons {
+    color: white;
+    background-color: #1c1c1c;
+    border-radius: 1em;
+}
+
+.socialIcons a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+    
+.github {
+    background-image: url("img/github.png");
+}
+
+.linkedin {
+    background-image: url("img/linkedin.png");
+}
+    
+.twitter {
+    background-image: url("img/twitter.png");
+}

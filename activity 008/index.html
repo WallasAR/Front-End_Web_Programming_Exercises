@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Formulário com Seletores de Atributos</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Formulario de inscrição</h1>
+        <form>
+            <fieldset>
+                <legend>informações pessoais</legend>
+                <input type="text" id="username" name="username">
+
+                <label for="pass">Senha</label>
+                <input type="password" id="pass" name="pass">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gênero</legend>
+                <label><input type="radio" name="gender" value="masculino">Masculino</label>
+                <label><input type="radio" name="gender" value="feminino">Feminino</label>
+                <label><input type="radio" name="gender" value="outros">Outros</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interesses</legend>
+                <label><input type="checkbox" name="interest" value="programação">Programação</label>
+                <label><input type="checkbox" name="interest" value="musica">Música</label>
+                <label><input type="checkbox" name="interest" value="esportes">Esportes</label>
+                <label><input type="checkbox" name="interest" value="filmes">Filmes</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Redes Sociais</legend>
+                <ul class="socialIcons">
+                    <li><a class="github" href="https://github.com"> Github </a></li>
+                    <li><a class="twitter" href="https://twitter.com"> Twitter </a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com">LinkedIn</a></li>
+                </ul>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html> 
