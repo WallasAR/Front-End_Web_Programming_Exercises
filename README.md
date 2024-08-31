@@ -11,3 +11,5 @@
 # Activity 006 <sup>[link](https://wallasar.github.io/Front-End_Web_Programming_Exercises/activity%20006/index.html)</sup>
 
 # Activity 007 <sup>[link](https://wallasar.github.io/Front-End_Web_Programming_Exercises/activity%20007/blog.html)</sup>
+
+# Activity 008 <sup>[link](https://wallasar.github.io/Front-End_Web_Programming_Exercises/activity%20008/index.html)</sup>
