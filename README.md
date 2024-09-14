@@ -69,3 +69,14 @@ Explore as atividades abaixo e clique no link correspondente para acessá-las.
 
 ---
 
+### **9. [Exercícios 009](https://github.com/WallasAR/Front-End_Web_Programming_Exercises/tree/68060e6899476ea7a06a78c90c4a51ea622add95/activity%20009)**
+> **Descrição:** Conjunto de exercícios práticos para manipular o DOM, criar botões e eventos, utilizar arrays e objetos em JavaScript.
+>
+> 🗓️ **Data:** 13/09/2024
+> 
+> **Conteúdo:**
+> - Uso de `document.write()` para inserir conteúdo no HTML.
+> - Manipulação de propriedades como `title` e `URL` do documento.
+> - Criação de elementos e atributos com JavaScript.
+> - Manipulação de eventos de clique e interação com formulários.
+> - Declaração e uso de arrays e objetos.
